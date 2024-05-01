@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모서리곡선 + 원형</title>
+    <style>
+        li {
+            list-style: none;
+            background-color: skyblue;
+            width :200px;
+            height :200px;
+            margin: 30px; /* 외부여백 :  */
+        }
+
+        .radious-01 {
+            border-radius: 10px;
+            /* 네개의 모서리 10px 적용 */
+        }
+        .radious-02 {
+            border-radius:  10px 50px;
+        }
+        .radious-03 {
+            /*  10px 50px 100px */
+        }
+        .radious-04 {
+            /*  10px 50px 100px */
+        }
+        .radious-05 {
+            /* 원형만들기
+            정사각형일 때 사용가능 */
+            border-radius: 50px;
+        }
+
+        .btn {
+            width: 150px;
+            height: 50px;
+            background-color: rgb(251, 253, 99);
+            border:  1px solid black;
+            border-radius: 100%;
+            text-align: center;
+            line-height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="radious-01"></li>
+        <li class="radious-02"></li>
+        <li class="radious-03"></li>
+        <li class="radious-04"></li>
+        <li class="radious-05"></li>
+    </ul>
+
+    <ul>
+        <li class="btn">바로가기</li>
+    </ul>
+</body>
+</html>
